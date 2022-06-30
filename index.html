@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/e76476ced6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Examen FRONT END</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <nav>
+        <div class="overlay"></div>
+        <div class="container">
+          <img class="logo" src="./images/logo.svg" alt="logo - manage" />
+          <ul class="list">
+            <li class="list-item"><a href="#">Pricing</a></li>
+            <li class="list-item"><a href="#">Product</a></li>
+            <li class="list-item"><a href="#">About Us</a></li>
+            <li class="list-item"><a href="#">Careers</a></li>
+            <li class="list-item"><a href="#">Community</a></li>
+          </ul>
+          <button class="btn">Get Started</button
+          ><img class="icon" src="./images/icon-hamburger.svg" alt="burger" />
+        </div>
+      </nav>
+      <header>
+        <div class="container">
+          <section class="column">
+            <div class="text">
+              <h1>Bring everyone together to build better products.</h1>
+              <p>
+                Manage makes it simple for software teams to plan day-to-day
+                tasks while keeping the larger team goals in view.
+              </p>
+            </div>
+            <button class="btn">Get Started</button>
+          </section>
+          <section class="column">
+            <div class="img-holder">
+              <img
+                class="pattern"
+                src="./images/bg-tablet-pattern.svg"
+                alt="overlay"
+              /><img
+                class="stats"
+                src="./images/illustration-introV2.png"
+                alt="illustration"
+              />
+            </div>
+          </section>
+        </div>
+      </header>
+      <main>
+        <img
+          class="pattern"
+          src="./images/bg-tablet-pattern.svg"
+          alt="pattern"
+        />
+        <div class="container">
+          <section class="column">
+            <div class="text">
+              <h2>What’s different about Manage?</h2>
+              <p>
+                Manage provides all the functionality your team needs, without
+                the complexity. Our software is tailor-made for modern digital
+                product teams.
+              </p>
+            </div>
+          </section>
+          <section class="column">
+            <div class="box">
+              <h3>
+                <span class="number" id="first">01</span> Track company-wide
+                progress
+              </h3>
+              <p>
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+            <div class="box">
+              <h3><span class="number">02</span> Advanced built-in reports</h3>
+              <p>
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+            <div class="box">
+              <h3>
+                <span class="number">03</span> Everything you need in one place
+              </h3>
+              <p>
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+      <div class="reviews">
+        <section class="text">
+          <h2>What they’ve said</h2>
+        </section>
+        <section class="reviews-profiles">
+          <div class="slider">
+            <div class="card">
+              <img src="./images/avatar-anisha.png" alt="anisha" />
+              <h3>Anisha Li</h3>
+              <p>
+                “Manage has supercharged our team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/avatar-ali.png" alt="ali" />
+              <h3>Ali Bravo</h3>
+              <p>
+                “We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.”
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/avatar-richard.png" alt="richard" />
+              <h3>Richard Watts</h3>
+              <p>
+                “Manage allows us to provide structure and process. It keeps us
+                organized and focused. I can’t stop recommending them to
+                everyone I talk to!”
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/avatar-shanai.png" alt="shanai" />
+              <h3>Shanai Gough</h3>
+              <p>
+                “Their software allows us to track, manage and collaborate on
+                our projects from anywhere. It keeps the whole team in-sync
+                without being intrusive.”
+              </p>
+            </div>
+          </div>
+        </section>
+        <div class="btn-h">
+          <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span
+            ><span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+      <section class="subscribe">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/bg-simplify-section-desktop.svg"
+          />
+          <img
+            class="svg"
+            src="./images/bg-simplify-section-mobile.svg"
+            alt="simplify"
+          />
+        </picture>
+        <div class="container">
+          <h2>Simplify how your team works today.</h2>
+          <button class="btn-apart">Get Started</button>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="column logo-area">
+            <div class="logo">
+              <a href="#"
+                ><img
+                  class="logo-footer"
+                  src="images/logo_footer.png"
+                  width="200px"
+                  alt="logo_footer"
+              /></a>
+            </div>
+            <div class="social-links">
+              <a class="icon" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="icon" href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a class="icon" href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a class="icon" href="#"
+                ><i class="fa-brands fa-pinterest"></i
+              ></a>
+              <a class="icon" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="column links-area">
+            <ul class="list">
+              <li class="list-item"><a class="link" href="#">Home</a></li>
+              <li class="list-item"><a class="link" href="#">Pricing</a></li>
+              <li class="list-item"><a class="link" href="#">Products</a></li>
+              <li class="list-item"><a class="link" href="#">About Us</a></li>
+            </ul>
+            <ul class="list">
+              <li class="list-item"><a class="link" href="#">Careers</a></li>
+              <li class="list-item"><a class="link" href="#">Commuinty</a></li>
+              <li class="list-item">
+                <a class="link" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column sub-area">
+            <form>
+              <input
+                class="text"
+                type="text"
+                placeholder="Uptade in your inbox..."
+              />
+              <input class="submit btn" type="submit" value="Go" />
+              <p class="validition">Please insert a valid email</p>
+            </form>
+            <p class="copy">Copyright 2020. All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <form action="resultado.html" method="POST">
+      <label for="nombre">
+        <input type="text" id="nombre" name="nombre" />
+      </label>
+      <label for="emial"><input type="email" id="email" name="email" /></label>
+      <label for="contraseña"
+        ><input type="password" id="contraseña" name="contraseña"
+      /></label>
+    </form>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
