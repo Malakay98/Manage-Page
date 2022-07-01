@@ -554,11 +554,7 @@ main .container .column .box p {
   padding-bottom: 70px;
   position: relative;
 }
-.subscribe .svg {
-  position: absolute;
-  bottom: 0;
-  left: 300px;
-}
+
 @media (max-width: 800px) {
   .subscribe .svg {
     left: 0;
